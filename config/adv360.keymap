@@ -111,11 +111,11 @@
 
         fn {
             bindings = <
-&kp GRAVE  &kp F1         &kp F2        &kp F3         &kp F4        &kp F5         &trans                                                &trans        &kp F6             &kp F7         &kp F8            &kp F9             &kp F10         &kp F11
-&trans     &kp LS(EXCL)   &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp C_BRI_UP                                          &kp C_VOL_UP  &kp SINGLE_QUOTE   &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UNDERSCORE  &kp F12
-&trans     &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)  &kp LS(RPAR)   &kp C_BRI_DN  &trans  &trans      &trans      &trans  &kp C_VOL_DN  &kp DOUBLE_QUOTES  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI        &trans
-&trans     &kp TILDE      &kp LBKT      &kp RBKT       &kp LS(LBRC)  &kp LS(RBRC)                         &trans      &kp K_MUTE                        &kp GRAVE          &kp BACKSLASH  &kp LESS_THAN     &kp GREATER_THAN   &kp SLASH       &trans
-&trans     &trans         &trans        &kp HOME       &kp END                      &trans        &trans  &trans      &trans      &trans  &trans                           &kp PG_UP      &kp PG_DN         &trans             &trans          &trans
+&kp GRAVE  &kp F1         &kp F2        &kp F3         &kp F4    &kp F5     &trans                                                &trans        &kp F6             &kp F7         &kp F8            &kp F9             &kp F10         &kp F11
+&trans     &kp EXCL       &kp AT        &kp POUND      &kp DLLR  &kp PRCNT  &kp C_BRI_UP                                          &kp C_VOL_UP  &kp SINGLE_QUOTE   &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UNDERSCORE  &kp F12
+&trans     &kp CARET      &kp AMPS      &kp STAR       &kp LPAR  &kp RPAR   &kp C_BRI_DN  &trans  &trans      &trans      &trans  &kp C_VOL_DN  &kp DOUBLE_QUOTES  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI        &trans
+&trans     &kp TILDE      &kp LBKT      &kp RBKT       &kp LBRC  &kp RBRC                         &trans      &kp K_MUTE                        &kp GRAVE          &kp BACKSLASH  &kp LESS_THAN     &kp GREATER_THAN   &kp SLASH       &trans
+&trans     &trans         &trans        &kp HOME       &kp END              &trans        &trans  &trans      &trans      &trans  &trans                           &kp PG_UP      &kp PG_DN         &trans             &trans          &trans
             >;
         };
 
