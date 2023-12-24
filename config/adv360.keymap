@@ -108,11 +108,11 @@
 
         fn {
             bindings = <
-&trans  &kp F1           &kp F2               &kp F3           &kp F4            &kp F5     &trans                                      &trans  &kp F6          &kp F7             &kp F8            &kp F9            &kp F10         &kp F11
-&trans  &kp EXCL         &kp AT               &kp POUND        &kp DLLR          &kp PRCNT  &trans                                      &trans  &kp GRAVE       &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp PIPE          &kp BACKSLASH   &kp F12
-&trans  &hml LCMD CARET  &hml LALT AMPERSAND  &hml LCTRL STAR  &hml LSHIFT LPAR  &kp RPAR   &trans  &trans  &trans      &trans  &trans  &trans  &kp UNDERSCORE  &hmr RSHIFT COMMA  &hmr RCTRL DOT    &hml RALT MINUS   &hmr RCMD SEMI  &kp COLON
-&trans  &kp TILDE        &kp LBKT             &kp RBKT         &kp LBRC          &kp RBRC                   &trans      &trans                  &kp PLUS        &kp EQUAL          &kp LESS_THAN     &kp GREATER_THAN  &kp SLASH       &trans
-&trans  &trans           &trans               &kp HOME         &kp END                      &trans  &trans  &trans      &trans  &trans  &trans                  &kp PG_UP          &kp PG_DN         &trans            &trans          &trans
+&trans  &kp F1           &kp F2               &kp F3           &kp F4            &kp F5     &trans                                      &trans  &kp F6     &kp F7             &kp F8                &kp F9                  &kp F10         &kp F11
+&trans  &kp EXCL         &kp AT               &kp POUND        &kp DLLR          &kp PRCNT  &trans                                      &trans  &kp GRAVE  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &kp PIPE                &kp BACKSLASH   &kp F12
+&trans  &hml LCMD CARET  &hml LALT AMPERSAND  &hml LCTRL STAR  &hml LSHIFT LPAR  &kp RPAR   &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS  &hmr RSHIFT UNDER  &hmr RCTRL LESS_THAN  &hml RALT GREATER_THAN  &hmr RCMD SEMI  &kp PLUS
+&trans  &kp TILDE        &kp LBKT             &kp RBKT         &kp LBRC          &kp RBRC                   &trans      &trans                  &kp COLON  &kp SEMI           &kp COMMA             &kp DOT                 &kp SLASH       &trans
+&trans  &trans           &trans               &kp HOME         &kp END                      &trans  &trans  &trans      &trans  &trans  &trans             &kp PG_UP          &kp PG_DN             &trans                  &trans          &trans
             >;
         };
 
