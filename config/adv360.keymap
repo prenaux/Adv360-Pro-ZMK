@@ -118,11 +118,11 @@
 
         nav {
             bindings = <
-&kp C_BRI_UP  &kp F1                 &kp F2          &kp F3           &kp F4                 &kp F5         &trans                                      &trans  &kp F6         &kp F7            &kp F8           &kp F9           &kp F10   &kp F11
-&kp C_BRI_DN  &kp C_VOL_UP           &kp PG_UP       &kp UP           &kp HOME               &kp BACKSPACE  &trans                                      &trans  &kp BACKSPACE  &kp HOME          &kp UP           &kp PG_UP        &kp INS   &kp F12
-&trans        &hm_tap LGUI C_VOL_DN  &hml LALT LEFT  &hml LCTRL DOWN  &hml LEFT_SHIFT RIGHT  &kp TAB        &trans  &trans  &trans      &trans  &trans  &trans  &kp TAB        &hmr RSHIFT LEFT  &hmr RCTRL DOWN  &hmr RALT RIGHT  &kp RGUI  &trans
-&trans        &none                  &kp PG_DN       &kp DOWN         &kp END                &kp DEL                        &trans      &trans                  &kp DELETE     &kp END           &kp DOWN         &kp PG_DN        &none     &trans
-&trans        &trans                 &trans          &trans           &trans                                &trans  &trans  &trans      &trans  &trans  &trans                 &trans            &trans           &trans           &trans    &trans
+&kp C_BRI_UP  &kp F1                 &kp F2          &kp F3           &kp F4                 &kp F5         &trans                                      &trans  &kp F6         &kp F7            &kp F8           &kp F9           &kp F10              &kp F11
+&kp C_BRI_DN  &kp C_VOL_UP           &kp PG_UP       &kp UP           &kp HOME               &kp BACKSPACE  &trans                                      &trans  &kp BACKSPACE  &kp HOME          &kp UP           &kp PG_UP        &kp INS              &kp F12
+&trans        &hm_tap LGUI C_VOL_DN  &hml LALT LEFT  &hml LCTRL DOWN  &hml LEFT_SHIFT RIGHT  &kp TAB        &trans  &trans  &trans      &trans  &trans  &trans  &kp TAB        &hmr RSHIFT LEFT  &hmr RCTRL DOWN  &hmr RALT RIGHT  &hm_tap RGUI C_NEXT  &trans
+&trans        &kp C_PP               &kp PG_DN       &kp DOWN         &kp END                &kp DEL                        &trans      &trans                  &kp DELETE     &kp END           &kp DOWN         &kp PG_DN        &kp C_PREV           &trans
+&trans        &trans                 &trans          &trans           &trans                                &trans  &trans  &trans      &trans  &trans  &trans                 &trans            &trans           &trans           &trans               &trans
             >;
         };
 
