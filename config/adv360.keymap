@@ -111,7 +111,7 @@
         sym {
             bindings = <
 &trans  &trans           &trans               &trans           &trans            &trans     &trans                                      &trans  &trans     &trans             &trans                &trans                  &trans          &trans
-&trans  &kp EXCL         &kp AT               &kp POUND        &kp DLLR          &kp PRCNT  &trans                                      &trans  &kp GRAVE  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &kp PLUS                &kp PIPE        &trans
+&trans  &kp EXCL         &kp AT               &kp POUND        &kp DLLR          &kp PRCNT  &trans                                      &trans  &kp GRAVE  &kp SQT            &kp DQT               &kp PLUS                &kp PIPE        &trans
 &trans  &hml LCMD CARET  &hml LALT AMPERSAND  &hml LCTRL STAR  &hml LSHIFT LPAR  &kp RPAR   &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS  &hmr RSHIFT UNDER  &hmr RCTRL LESS_THAN  &hml RALT GREATER_THAN  &hmr RCMD SEMI  &kp QUESTION
 &trans  &kp TILDE        &kp LBKT             &kp RBKT         &kp LBRC          &kp RBRC                   &trans      &trans                  &kp COLON  &kp EQUAL          &kp COMMA             &kp DOT                 &kp SLASH       &trans
 &trans  &trans           &trans               &trans           &trans                       &trans  &trans  &trans      &trans  &trans  &trans             &kp HOME           &kp PG_DN             &kp PG_UP               &kp END         &trans
