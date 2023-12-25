@@ -88,12 +88,12 @@
             >;
         };
 
-        layer_colemak {
+        layer_colemak_pr {
             bindings = <
 &trans  &trans           &trans           &trans               &trans             &trans  &trans                                      &trans  &trans  &trans              &trans                &trans            &trans                &trans
-&trans  &kp Q            &kp W            &kp F                &kp P              &kp G   &to 0                                       &trans  &kp J   &kp L               &kp U                 &kp Y             &kp SEMICOLON         &trans
-&trans  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp D   &trans  &trans  &trans      &trans  &trans  &trans  &kp H   &hmr RIGHT_SHIFT N  &hmr RIGHT_CONTROL E  &hmr RIGHT_ALT I  &hmr RIGHT_COMMAND O  &trans
-&trans  &kp Z            &kp X            &kp C                &kp V              &kp B                   &trans      &trans                  &kp K   &kp M               &kp COMMA             &kp PERIOD        &kp SLASH             &trans
+&trans  &kp Q            &kp W            &kp F                &kp P              &kp B   &to 0                                       &trans  &kp J   &kp L               &kp U                 &kp Y             &kp O                         &trans
+&trans  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp G   &trans  &trans  &trans      &trans  &trans  &trans  &kp M   &hmr RIGHT_SHIFT N  &hmr RIGHT_CONTROL E  &hmr RIGHT_ALT I  &hmr RIGHT_COMMAND SEMICOLON  &trans
+&trans  &kp Z            &kp X            &kp C                &kp D              &kp V                   &trans      &trans                  &kp K   &kp H               &kp COMMA             &kp PERIOD        &kp SLASH                     &trans
 &trans  &trans           &trans           &trans               &trans                     &trans  &trans  &trans      &trans  &trans  &trans          &trans              &trans                &trans            &trans                &trans
             >;
         };
