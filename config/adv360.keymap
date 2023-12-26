@@ -19,20 +19,6 @@
 
         #endif
 
-        scroll_down: scroll_down {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp DOWN>;
-            label = "scroll_down";
-        };
-
-        scroll_up: scroll_up {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp UP>;
-            label = "scroll_up";
-        };
-
         homerow_mods: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
@@ -97,6 +83,19 @@
     };
 
     macros {
+        scroll_down: scroll_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN>, <&kp DOWN>, <&kp DOWN>;
+            label = "scroll_down";
+        };
+
+        scroll_up: scroll_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp UP>, <&kp UP>, <&kp UP>;
+            label = "scroll_up";
+        };
     };
 
     keymap {
