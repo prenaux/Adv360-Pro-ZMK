@@ -155,8 +155,8 @@
         default_layer {
             bindings = <
 &hp LGUI EQUAL  &kp N1       &kp N2       &kp N3        &kp N4         &kp N5  &tog 1                                                                                                    &mo 4                 &kp N6  &kp N7         &kp N8            &kp N9         &kp N0          &hp RCMD MINUS
-&hp LALT TAB    &kp Q        &kp W        &kp E         &kp R          &kp T   &kp LG(LS(N1))                                                                                            &kp LG(LS(NUMBER_3))  &kp Y   &kp U          &kp I             &kp O          &kp P           &hp RALT BSLH
-&hp LCTRL ESC   &kp A        &kp S        &kp D         &kp F          &kp G   &kp LG(LS(NUMBER_2))     &kp LEFT_CONTROL   &kp LEFT_ALT          &kp RIGHT_ALT      &kp RCTRL            &kp LG(LS(NUMBER_4))  &kp H   &kp J          &kp K             &kp L          &kp SEMI        &lm 3 RCTRL
+&hp LALT TAB    &kp Q        &kp W        &kp E         &kp R          &kp T   &kp LG(LS(N1))                                                                                            &kp LG(LS(NUMBER_3))  &kp Y   &kp U          &kp I             &kp O          &kp P           &lm 5 RALT
+&hp LCTRL ESC   &kp A        &kp S        &kp D         &kp F          &kp G   &kp LG(LS(NUMBER_2))     &kp LEFT_CONTROL   &kp LEFT_ALT          &kp RIGHT_ALT      &kp RCTRL            &kp LG(LS(NUMBER_4))  &kp H   &kp J          &kp K             &kp L          &kp SEMI        &lm 5 RCTRL
 &kp LSHFT       &hml LGUI Z  &hml LALT X  &hml LCTRL C  &hml LSHIFT V  &kp B                                               &kp LEFT_SHIFT        &kp RIGHT_SHIFT                                               &kp N   &hmr RSHIFT M  &hmr RCTRL COMMA  &hmr RALT DOT  &hmr RGUI FSLH  &kp RSHFT
 &mo 2           &kp GRAVE    &kp CAPS     &kp LBKT      &kp RBKT               &thumb_hold 2 BACKSPACE  &thumb_hold 3 DEL  &kp LEFT_COMMAND      &kp RIGHT_COMMAND  &thumb_hold 1 ENTER  &thumb_hold 2 SPACE           &kp LEFT       &kp DOWN          &kp UP         &kp RIGHT       &mo 2
             >;
@@ -199,6 +199,16 @@
 &none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none  &none       &none       &none  &none
 &none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &none  &none  &none       &none       &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &none  &bl BL_DEC  &bl BL_INC  &none  &none
+            >;
+        };
+
+        arrows {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans    &trans     &trans  &trans
             >;
         };
     };
