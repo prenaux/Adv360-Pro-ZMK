@@ -115,6 +115,7 @@
         };
 
         repeat_3: repeat_3 {
+            wait-ms = <5>;
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings =
@@ -130,6 +131,7 @@
         };
 
         repeat_5: repeat_5 {
+            wait-ms = <5>;
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings =
@@ -147,6 +149,38 @@
 
             label = "REPEAT_5";
         };
+
+        repeat_10: repeat_10 {
+            wait-ms = <5>;
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings =
+                <&macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER &macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER &macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER &macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER &macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER &macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER &macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER &macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER &macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER &macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER>
+                ;
+
+            label = "REPEAT_10";
+        };
+
     };
 
     keymap {
