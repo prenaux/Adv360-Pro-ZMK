@@ -21,14 +21,14 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp DOWN>;
-            label = "MACRO_SCROLL_DOWN";
+            label = "macro_scroll_down";
         };
 
         macro_scroll_up: macro_scroll_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp UP>;
-            label = "MACRO_SCROLL_UP";
+            label = "macro_scroll_up";
         };
 
         #endif
