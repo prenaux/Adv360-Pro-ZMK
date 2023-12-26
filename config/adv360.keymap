@@ -83,20 +83,6 @@
     };
 
     macros {
-        scroll_down: scroll_down {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp DOWN &kp DOWN &kp DOWN>;
-            label = "scroll_down";
-        };
-
-        scroll_up: scroll_up {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp UP &kp UP &kp UP>;
-            label = "scroll_up";
-        };
-
         /**
          * Temporarily switches to a layer (`&mo`) while a modifier is held.
          * Analogous to QMK's `LM()`, using a parameterized macro.
