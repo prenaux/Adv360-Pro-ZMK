@@ -109,6 +109,7 @@
          *  `&lm NUM_LAYER LSHIFT`
          */
         lm: lm {
+            label = "lm";
             compatible = "zmk,behavior-macro-two-param";
             wait-ms = <0>;
             tap-ms = <0>;
