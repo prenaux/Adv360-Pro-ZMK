@@ -206,11 +206,11 @@
 
         sym {
             bindings = <
-&trans  &trans     &trans         &trans     &trans    &trans     &trans                                      &trans  &trans     &trans     &trans         &trans            &trans     &trans
-&trans  &kp EXCL   &kp AT         &kp POUND  &kp DLLR  &kp PRCNT  &trans                                      &trans  &kp GRAVE  &kp SQT    &kp DQT        &kp PLUS          &kp PIPE   &trans
-&trans  &kp CARET  &kp AMPERSAND  &kp STAR   &kp LPAR  &kp RPAR   &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS  &kp UNDER  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMI   &kp QUESTION
-&trans  &kp TILDE  &kp LBKT       &kp RBKT   &kp LBRC  &kp RBRC                   &trans      &trans                  &kp COLON  &kp EQUAL  &kp COMMA      &kp DOT           &kp SLASH  &trans
-&trans  &trans     &trans         &trans     &trans               &trans  &trans  &trans      &trans  &trans  &trans             &kp HOME   &kp PG_DN      &kp PG_UP         &kp END    &trans
+&trans  &trans     &trans         &trans     &trans    &trans     &trans                                       &trans  &trans     &trans     &trans         &trans            &trans     &trans
+&trans  &kp EXCL   &kp AT         &kp POUND  &kp DLLR  &kp PRCNT  &trans                                       &trans  &kp GRAVE  &kp SQT    &kp DQT        &kp PLUS          &kp PIPE   &trans
+&trans  &kp CARET  &kp AMPERSAND  &kp STAR   &kp LPAR  &kp RPAR   &trans  &trans   &trans      &trans  &trans  &trans  &kp MINUS  &kp UNDER  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMI   &kp QUESTION
+&trans  &kp TILDE  &kp LBKT       &kp RBKT   &kp LBRC  &kp RBRC                    &trans      &trans                  &kp COLON  &kp EQUAL  &kp COMMA      &kp DOT           &kp SLASH  &trans
+&trans  &trans     &trans         &trans     &trans               &trans  &kp DEL  &trans      &trans  &trans  &trans             &kp HOME   &kp PG_DN      &kp PG_UP         &kp END    &trans
             >;
         };
 
