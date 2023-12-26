@@ -17,6 +17,8 @@
             bindings = <&kp RET>;
         };
 
+        #endif
+
         scroll_down: scroll_down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -30,8 +32,6 @@
             bindings = <&kp UP>;
             label = "scroll_up";
         };
-
-        #endif
 
         homerow_mods: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
