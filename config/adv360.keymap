@@ -197,8 +197,8 @@
         pierre_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp D   &trans  &kp K   &to 0                                       &trans  &trans  &trans  &kp F   &trans  &kp J   &trans
-&trans  &trans  &trans  &kp E   &kp T   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp N   &kp I   &trans  &trans  &trans
+&trans  &trans  &trans  &kp F   &trans  &kp K   &to 0                                       &trans  &trans  &trans  &trans  &trans  &kp J   &trans
+&trans  &trans  &trans  &trans  &kp E   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp N   &kp T   &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp P   &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
