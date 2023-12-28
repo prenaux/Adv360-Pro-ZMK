@@ -186,11 +186,11 @@
 
         default_layer {
             bindings = <
-&hp_kp LGUI EQUAL  &kp N1         &kp N2         &kp N3          &kp N4           &kp N5      &tog 2                                                                                            &mo 5                 &kp N6  &kp N7           &kp N8              &kp N9           &kp N0            &hp_kp RCMD MINUS
+&hp_kp LGUI EQUAL  &kp N1         &kp N2         &kp N3          &kp N4           &kp N5      &tog 2                                                                                            &mo 4                 &kp N6  &kp N7           &kp N8              &kp N9           &kp N0            &hp_kp RCMD MINUS
 &hp_kp LALT TAB    &kp Q          &kp W          &kp E           &kp R            &kp T       &to 1                                                                                             &kp LG(LS(NUMBER_3))  &kp Y   &kp U            &kp I               &kp O            &kp P             &hp_kp RALT BACKSLASH
 &hp_kp LCTRL ESC   &kp A          &kp S          &kp D           &kp F            &kp G       &kp LG(Z)              &kp LEFT_CONTROL  &kp LEFT_ALT          &kp RIGHT_ALT      &kp RCTRL       &kp LG(LS(N2))        &kp H   &kp J            &kp K               &kp L            &kp SEMI          &hp_kp RCTRL ENTER
-&kp LSHFT          &hrm_l LGUI Z  &hrm_l LALT X  &hrm_l LCTRL C  &hrm_l LSHIFT V  &hp_mo 4 B                                           &kp LEFT_SHIFT        &kp RIGHT_SHIFT                                          &kp N   &hrm_r RSHIFT M  &hrm_r RCTRL COMMA  &hrm_r RALT DOT  &hrm_r RGUI FSLH  &kp RSHFT
-&mo 3              &kp GRAVE      &kp CAPS       &kp LBKT        &kp RBKT                     &hp_kp LALT BACKSPACE  &hp_kp LCTRL DEL  &kp LEFT_COMMAND      &kp RIGHT_COMMAND  &hp_mo 6 SPACE  &hp_mo 3 SPACE                &kp LEFT         &kp DOWN            &kp UP           &kp RIGHT         &mo 3
+&kp LSHFT          &hrm_l LGUI Z  &hrm_l LALT X  &hrm_l LCTRL C  &hrm_l LSHIFT V  &hp_mo 0 B                                           &kp LEFT_SHIFT        &kp RIGHT_SHIFT                                          &kp N   &hrm_r RSHIFT M  &hrm_r RCTRL COMMA  &hrm_r RALT DOT  &hrm_r RGUI FSLH  &kp RSHFT
+&mo 3              &kp GRAVE      &kp CAPS       &kp LBKT        &kp RBKT                     &hp_kp LALT BACKSPACE  &hp_kp LCTRL DEL  &kp LEFT_COMMAND      &kp RIGHT_COMMAND  &hp_mo 5 ENTER  &hp_mo 3 SPACE                &kp LEFT         &kp DOWN            &kp UP           &kp RIGHT         &mo 3
             >;
         };
 
@@ -224,16 +224,6 @@
             >;
         };
 
-        nav {
-            bindings = <
-&trans  &kp F1                  &kp F2        &kp F3      &kp F4        &kp F5              &trans                                      &trans  &kp F6    &kp F7      &kp F8     &kp F9     &kp F10    &kp F11
-&trans  &kp C_BRI_UP            &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &re_kp_scroll UP    &trans                                      &trans  &kp INS   &kp HOME    &kp UP     &kp END    &kp PG_UP  &kp F12
-&trans  &re_kp_scroll C_BRI_DN  &kp C_PREV    &kp C_PP    &kp C_NEXT    &re_kp_scroll DOWN  &trans  &trans  &trans      &trans  &trans  &trans  &kp BSPC  &kp LEFT    &kp DOWN   &kp RIGHT  &kp PG_DN  &trans
-&trans  &kp LCMD                &kp LALT      &kp LCTRL   &kp LSHIFT    &none                               &trans      &trans                  &kp DEL   &kp RSHIFT  &kp RCTRL  &kp RALT   &kp RCMD   &trans
-&trans  &trans                  &trans        &trans      &trans                            &trans  &trans  &trans      &trans  &trans  &trans            &trans      &trans     &trans     &trans     &trans
-            >;
-        };
-
         mod {
             bindings = <
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none  &none  &none       &none       &none  &none
@@ -244,13 +234,13 @@
             >;
         };
 
-        arrows {
+        nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans    &trans     &trans  &trans
+&trans  &kp F1                  &kp F2        &kp F3      &kp F4        &kp F5              &trans                                      &trans  &kp F6    &kp F7      &kp F8     &kp F9     &kp F10    &kp F11
+&trans  &kp C_BRI_UP            &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &re_kp_scroll UP    &trans                                      &trans  &kp INS   &kp HOME    &kp UP     &kp END    &kp PG_UP  &kp F12
+&trans  &re_kp_scroll C_BRI_DN  &kp C_PREV    &kp C_PP    &kp C_NEXT    &re_kp_scroll DOWN  &trans  &trans  &trans      &trans  &trans  &trans  &kp BSPC  &kp LEFT    &kp DOWN   &kp RIGHT  &kp PG_DN  &trans
+&trans  &kp LCMD                &kp LALT      &kp LCTRL   &kp LSHIFT    &none                               &trans      &trans                  &kp DEL   &kp RSHIFT  &kp RCTRL  &kp RALT   &kp RCMD   &trans
+&trans  &trans                  &trans        &trans      &trans                            &trans  &trans  &trans      &trans  &trans  &trans            &trans      &trans     &trans     &trans     &trans
             >;
         };
     };
