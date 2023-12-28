@@ -19,9 +19,9 @@
 
         #endif
 
-        homerow_mods: homerow_mods {
+        hrm: hrm {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
+            label = "HRM";
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             flavor = "tap-preferred";
@@ -30,9 +30,9 @@
             quick-tap-ms = <0>;
         };
 
-        hml: hml {
+        hrm_l: hrm_l {
             compatible = "zmk,behavior-hold-tap";
-            label = "HML";
+            label = "HRM_L";
             #binding-cells = <2>;
             tapping-term-ms = <280>;
             flavor = "balanced";
@@ -44,9 +44,9 @@
             hold-trigger-key-positions = <7 8 9 10 11 12 13 21 22 23 24 25 26 27 38 39 40 41 42 43 44 45 54 55 56 57 58 59 69 70 71 72 73 74 75 35 36 37 38 52 53 65 66 67 68 69 70 61 62 63 64 60>;
         };
 
-        hmr: hmr {
+        hrm_r: hrm_r {
             compatible = "zmk,behavior-hold-tap";
-            label = "HMR";
+            label = "HRM_R";
             #binding-cells = <2>;
             tapping-term-ms = <280>;
             flavor = "balanced";
@@ -58,9 +58,9 @@
             hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 34 35 36 46 47 48 49 50 51 52 60 61 62 63 64 65 66 67 37 38 53 68 69 70 71 72 73 74 75>;
         };
 
-        thumb_hold: thumb_hold {
+        hp_mo: hp_mo {
             compatible = "zmk,behavior-hold-tap";
-            label = "THUMB_HOLD";
+            label = "HP_MO";
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
@@ -69,15 +69,15 @@
             quick-tap-ms = <200>;
         };
 
-        hp: hp {
+        hp_kp: hp_kp {
             compatible = "zmk,behavior-hold-tap";
-            label = "HP";
+            label = "HP_KP";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "hold-preferred";
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <0>;
+            quick-tap-ms = <200>;
         };
     };
 
@@ -186,11 +186,11 @@
 
         default_layer {
             bindings = <
-&hp LGUI EQUAL  &kp N1       &kp N2       &kp N3        &kp N4         &kp N5           &tog 2                                                                                                   &mo 5                 &kp N6  &kp N7         &kp N8            &kp N9         &kp N0          &hp RCMD MINUS
-&hp LALT TAB    &kp Q        &kp W        &kp E         &kp R          &kp T            &to 1                                                                                                    &kp LG(LS(NUMBER_3))  &kp Y   &kp U          &kp I             &kp O          &kp P           &lm 6 RALT
-&hp LCTRL ESC   &kp A        &kp S        &kp D         &kp F          &kp G            &kp LG(Z)                &kp LEFT_CONTROL  &kp LEFT_ALT          &kp RIGHT_ALT      &kp RCTRL            &kp LG(LS(N2))        &kp H   &kp J          &kp K             &kp L          &kp SEMI        &lm 6 RCTRL
-&kp LSHFT       &hml LGUI Z  &hml LALT X  &hml LCTRL C  &hml LSHIFT V  &thumb_hold 4 B                                             &kp LEFT_SHIFT        &kp RIGHT_SHIFT                                               &kp N   &hmr RSHIFT M  &hmr RCTRL COMMA  &hmr RALT DOT  &hmr RGUI FSLH  &kp RSHFT
-&mo 3           &kp GRAVE    &kp CAPS     &kp LBKT      &kp RBKT                        &thumb_hold 3 BACKSPACE  &hp LCTRL DEL     &kp LEFT_COMMAND      &kp RIGHT_COMMAND  &thumb_hold 6 ENTER  &thumb_hold 3 SPACE           &kp LEFT       &kp DOWN          &kp UP         &kp RIGHT       &mo 3
+&hp_kp LGUI EQUAL  &kp N1         &kp N2         &kp N3          &kp N4           &kp N5      &tog 2                                                                                         &mo 5                 &kp N6  &kp N7           &kp N8              &kp N9           &kp N0            &hp_kp RCMD MINUS
+&hp_kp LALT TAB    &kp Q          &kp W          &kp E           &kp R            &kp T       &to 1                                                                                          &kp LG(LS(NUMBER_3))  &kp Y   &kp U            &kp I               &kp O            &kp P             &lm 6 RALT
+&hp_kp LCTRL ESC   &kp A          &kp S          &kp D           &kp F            &kp G       &kp LG(Z)           &kp LEFT_CONTROL  &kp LEFT_ALT          &kp RIGHT_ALT      &kp RCTRL       &kp LG(LS(N2))        &kp H   &kp J            &kp K               &kp L            &kp SEMI          &lm 6 RCTRL
+&kp LSHFT          &hrm_l LGUI Z  &hrm_l LALT X  &hrm_l LCTRL C  &hrm_l LSHIFT V  &hp_mo 4 B                                        &kp LEFT_SHIFT        &kp RIGHT_SHIFT                                          &kp N   &hrm_r RSHIFT M  &hrm_r RCTRL COMMA  &hrm_r RALT DOT  &hrm_r RGUI FSLH  &kp RSHFT
+&mo 3              &kp GRAVE      &kp CAPS       &kp LBKT        &kp RBKT                     &hp_mo 3 BACKSPACE  &hp_kp LCTRL DEL  &kp LEFT_COMMAND      &kp RIGHT_COMMAND  &hp_mo 6 ENTER  &hp_mo 3 SPACE                &kp LEFT         &kp DOWN            &kp UP           &kp RIGHT         &mo 3
             >;
         };
 
