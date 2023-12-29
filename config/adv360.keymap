@@ -204,11 +204,11 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE              &kp N1         &kp N2      &kp N3    &kp N4    &kp N5      &tog 2                                                                                            &mo 4                 &kp N6      &kp N7    &kp N8     &kp N9   &kp N0            &kp BACKSPACE
-&caps_word              &kp Q          &kp W       &kp E     &kp R     &kp T       &to 1                                                                                             &kp LG(LS(NUMBER_3))  &kp Y       &kp U     &kp I      &kp O    &kp P             &hp_kp RALT BACKSLASH
-&hp_kp LCTRL BACKSPACE  &kp A          &kp S       &kp D     &kp F     &kp G       &kp LG(Z)          &kp LEFT_CONTROL  &kp LEFT_ALT          &kp RIGHT_ALT      &kp RCTRL           &kp LG(LS(N2))        &kp H       &kp J     &kp K      &kp L    &kp SEMI          &hp_kp RCTRL ENTER
-&tpd_sk_shift           &hrm_l LALT Z  &kp X       &kp C     &kp V     &tp_mo 5 B                                       &kp LEFT_SHIFT        &kp RIGHT_SHIFT                                              &tp_mo 2 N  &kp M     &kp COMMA  &kp DOT  &hrm_r RGUI FSLH  &tpd_sk_shift
-&mo 3                   &kp GRAVE      &caps_word  &kp LBKT  &kp RBKT              &hp_kp LALT ENTER  &hp_kp LCTRL TAB  &kp LEFT_COMMAND      &kp RIGHT_COMMAND  &hp_mo 5 BACKSPACE  &hp_mo 3 SPACE                    &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT         &mo 3
+&kp ESCAPE             &kp N1         &kp N2      &kp N3    &kp N4    &kp N5      &tog 2                                                                                            &mo 4                 &kp N6      &kp N7    &kp N8     &kp N9   &kp N0            &kp BACKSPACE
+&caps_word             &kp Q          &kp W       &kp E     &kp R     &kp T       &to 1                                                                                             &kp LG(LS(NUMBER_3))  &kp Y       &kp U     &kp I      &kp O    &kp P             &hp_kp RALT BACKSLASH
+&hp_kp LGUI BACKSPACE  &kp A          &kp S       &kp D     &kp F     &kp G       &kp LG(Z)          &kp LEFT_CONTROL  &kp LEFT_ALT          &kp RIGHT_ALT      &kp RCTRL           &kp LG(LS(N2))        &kp H       &kp J     &kp K      &kp L    &kp SEMI          &hp_kp RCTRL ENTER
+&tpd_sk_shift          &hrm_l LALT Z  &kp X       &kp C     &kp V     &tp_mo 5 B                                       &kp LEFT_SHIFT        &kp RIGHT_SHIFT                                              &tp_mo 2 N  &kp M     &kp COMMA  &kp DOT  &hrm_r RGUI FSLH  &tpd_sk_shift
+&mo 3                  &kp GRAVE      &caps_word  &kp LBKT  &kp RBKT              &hp_kp LALT ENTER  &hp_kp LCTRL TAB  &kp LEFT_COMMAND      &kp RIGHT_COMMAND  &hp_mo 5 BACKSPACE  &hp_mo 3 SPACE                    &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT         &mo 3
             >;
         };
 
