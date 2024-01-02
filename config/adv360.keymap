@@ -230,13 +230,13 @@
             >;
         };
 
-        game_layer {
+        pierre_layer {
             bindings = <
-&kp ESC     &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB     &trans  &trans  &trans  &trans  &trans  &to 0                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LALT    &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHIFT  &trans  &trans  &trans  &trans  &trans                        &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans          &kp SPACE  &kp LCTRL  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &to 0                                       &trans  &trans  &trans  &trans  &trans  &kp J   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp N   &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp P   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
