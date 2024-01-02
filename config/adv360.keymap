@@ -252,11 +252,11 @@
 
         sym {
             bindings = <
-&trans  &kp EXCL    &kp AT     &kp POUND  &kp DOLLAR  &kp PERCENT  &trans                                      &trans  &kp CARET     &kp AMPS   &kp STAR   &kp LPAR   &kp RPAR       &trans
-&trans  &kp GRAVE   &kp PIPE   &kp LT     &kp GT      &kp TILDE    &trans                                      &trans  &kp QUESTION  &kp DQT    &kp EQUAL  &kp STAR   &kp BACKSLASH  &trans
-&trans  &kp AMPS    &kp MINUS  &kp PLUS   &kp LPAR    &kp RPAR     &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT      &kp DOWN   &kp UP     &kp RIGHT  &trans         &trans
-&trans  &caps_word  &kp LBKT   &kp RBKT   &kp LBRC    &kp RBRC                     &trans      &trans                  &kp COLON     &kp UNDER  &trans     &trans     &trans         &trans
-&trans  &trans      &trans     &trans     &trans                   &trans  &trans  &trans      &trans  &trans  &trans                &kp HOME   &kp PG_DN  &kp PG_UP  &kp END        &trans
+&trans  &kp EXCL   &kp AT     &kp POUND  &kp DOLLAR  &kp PERCENT  &trans                                      &trans  &kp CARET     &kp AMPS   &kp STAR   &kp LPAR   &kp RPAR       &trans
+&trans  &kp GRAVE  &kp PIPE   &kp LT     &kp GT      &kp SPACE    &trans                                      &trans  &kp QUESTION  &kp DQT    &kp EQUAL  &kp STAR   &kp BACKSLASH  &trans
+&trans  &kp AMPS   &kp MINUS  &kp PLUS   &kp LPAR    &kp RPAR     &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT      &kp DOWN   &kp UP     &kp RIGHT  &trans         &trans
+&trans  &kp TILDE  &kp LBKT   &kp RBKT   &kp LBRC    &kp RBRC                     &trans      &trans                  &kp COLON     &kp UNDER  &trans     &trans     &trans         &trans
+&trans  &trans     &trans     &trans     &trans                   &trans  &trans  &trans      &trans  &trans  &trans                &kp HOME   &kp PG_DN  &kp PG_UP  &kp END        &trans
             >;
         };
 
