@@ -236,7 +236,7 @@
 &kp ESC     &kp N1     &kp N2      &kp N3    &kp N4    &kp N5      &to_mo 2 2                                                              &mo 4                 &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &hp_kp RGUI BACKSPACE
 &kp TAB     &kp Q      &kp W       &kp E     &kp R     &kp T       &to 1                                                                   &kp LG(LS(NUMBER_3))  &kp Y   &kp U     &kp I      &kp O    &kp P      &hp_kp RALT GRAVE
 &sk LGUI    &kp A      &kp S       &kp D     &kp F     &kp G       &kp LG(Z)   &kp C_VOL_DN  &kp C_VOL_UP      &kp C_BRI_UP  &kp C_BRI_DN  &kp LG(LS(N2))        &kp H   &kp J     &kp K      &kp L    &kp SEMI   &hp_kp RCTRL ENTER
-&sk LSHIFT  &kp Z      &kp X       &kp C     &kp V     &tp_mo 5 B                            &kp C_PLAY        &kp C_MUTE                                        &kp N   &kp M     &kp COMMA  &kp DOT  &kp SLASH  &sk RSHIFT
+&sk LSHIFT  &kp Z      &kp X       &kp C     &kp V     &tp_mo 5 B                            &kp C_PP          &kp C_MUTE                                        &kp N   &kp M     &kp COMMA  &kp DOT  &kp SLASH  &sk RSHIFT
 &none       &kp GRAVE  &caps_word  &kp LBKT  &kp RBKT              &sk LALT    &sk LCTRL     &kp C_NEXT        &kp C_PREV    &st_layer 3   &kp SPACE                     &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &none
             >;
         };
