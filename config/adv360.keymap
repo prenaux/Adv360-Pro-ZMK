@@ -264,8 +264,8 @@
         sym {
             bindings = <
 &trans  &kp EXCL   &kp AT     &kp POUND  &kp DOLLAR  &kp PERCENT  &trans                                      &trans  &kp CARET  &none              &none      &none      &none      &trans
-&trans  &kp QMARK  &kp SQT    &kp LBKT   &kp RBKT    &kp LT       &trans                                      &trans  &kp PIPE   &kp DOUBLE_QUOTES  &kp EQUAL  &kp STAR   &kp TILDE  &kp GRAVE
-&trans  &kp AMPS   &kp MINUS  &kp LPAR   &kp RPAR    &kp GT       &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT   &kp DOWN           &kp UP     &kp RIGHT  &kp SEMI   &trans
+&trans  &kp QMARK  &kp LT     &kp LBKT   &kp RBKT    &kp GT       &trans                                      &trans  &kp PIPE   &kp DOUBLE_QUOTES  &kp EQUAL  &kp STAR   &kp TILDE  &kp GRAVE
+&trans  &kp SQT    &kp MINUS  &kp LPAR   &kp RPAR    &kp AMPS     &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT   &kp DOWN           &kp UP     &kp RIGHT  &kp SEMI   &trans
 &trans  &kp BSLH   &kp PLUS   &kp LBRC   &kp RBRC    &kp SPACE                    &trans      &trans                  &kp COLON  &kp UNDER          &kp COMMA  &kp DOT    &kp SLASH  &trans
 &trans  &trans     &trans     &trans     &trans                   &trans  &trans  &trans      &trans  &trans  &trans             &kp HOME           &kp PG_DN  &kp PG_UP  &kp END    &trans
             >;
