@@ -273,11 +273,11 @@
 
         sym {
             bindings = <
-&trans  &kp EXCL   &kp AT     &kp POUND  &kp DOLLAR  &kp PERCENT  &trans                                         &trans  &kp CARET  &none              &none      &none      &none      &trans
-&trans  &kp QMARK  &kp LT     &kp LBKT   &kp RBKT    &kp GT       &kp F1                                         &kp F3  &kp PIPE   &kp DOUBLE_QUOTES  &kp EQUAL  &kp STAR   &kp TILDE  &kp GRAVE
-&trans  &kp SQT    &kp MINUS  &kp LPAR   &kp RPAR    &kp AMPS     &kp F2  &kp F11  &kp F12      &kp F5   &kp F6  &kp F4  &kp LEFT   &kp DOWN           &kp UP     &kp RIGHT  &kp SEMI   &trans
-&trans  &kp BSLH   &kp PLUS   &kp LBRC   &kp RBRC    &kp SPACE                     &kp F8       &kp F10                  &kp COLON  &kp UNDER          &kp COMMA  &kp DOT    &kp SLASH  &trans
-&trans  &trans     &trans     &trans     &trans                   &trans  &trans   &kp F7       &kp F9   &trans  &trans             &kp HOME           &kp PG_DN  &kp PG_UP  &kp END    &trans
+&trans  &kp EXCL       &kp AT     &kp POUND  &kp DOLLAR  &kp PERCENT  &trans                                         &trans  &kp CARET              &kp AMPS           &kp STAR   &kp LPAR   &kp RPAR      &trans
+&trans  &trans         &kp PLUS   &kp LBKT   &kp RBKT    &kp TAB      &kp F1                                         &kp F3  &sk LS(LA(LG(LCTRL)))  &kp DOUBLE_QUOTES  &kp EQUAL  &kp SLASH  &trans        &kp GRAVE
+&trans  &kp PIPE       &kp MINUS  &kp SQT    &kp UNDER   &kp ESC      &kp F2  &kp F11  &kp F12      &kp F5   &kp F6  &kp F4  &kp LEFT               &kp DOWN           &kp UP     &kp RIGHT  &kp COLON     &trans
+&trans  &kp BACKSLASH  &kp TILDE  &kp LBRC   &kp RBRC    &kp SPACE                     &kp F8       &kp F10                  &kp ENTER              &kp GRAVE          &kp LT     &kp GT     &kp QUESTION  &trans
+&trans  &trans         &trans     &trans     &trans                   &trans  &trans   &kp F7       &kp F9   &trans  &trans                         &kp HOME           &kp PG_DN  &kp PG_UP  &kp END       &trans
             >;
         };
 
