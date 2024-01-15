@@ -243,8 +243,8 @@
             bindings = <
 &hp_kp LS(LA(LC(LGUI))) ESC  &kp N1     &kp N2   &kp N3    &kp N4    &kp N5      &to_mo 2 2                                                                       &mo 4           &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp BSPC
 &kp TAB                      &kp Q      &kp W    &kp E     &kp R     &kp T       &kp_to 1 TAB                                                                     &kp LS(LG(N3))  &kp Y   &kp U     &kp I      &kp O    &kp P      &sk BACKSLASH
-&sk LGUI                     &kp A      &kp S    &kp D     &kp F     &kp G       &kp LS(LG(NUMBER_2))   &sk LSHIFT          &sk LCTRL      &sk RCTRL  &sk RSHIFT  &kp LS(LG(N4))  &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp ENTER
-&sk LSHIFT                   &kp Z      &kp X    &kp C     &kp V     &tp_mo 5 B                                             &sk LGUI       &sk RGUI                               &kp N   &kp M     &kp COMMA  &kp DOT  &kp SLASH  &sk RSHIFT
+&sk LGUI                     &kp A      &kp S    &kp D     &kp F     &kp G       &kp LS(LG(NUMBER_2))   &sk LSHIFT          &sk LGUI       &sk RGUI   &sk RSHIFT  &kp LS(LG(N4))  &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp ENTER
+&sk LSHIFT                   &kp Z      &kp X    &kp C     &kp V     &tp_mo 5 B                                             &sk LCTRL      &sk RCTRL                              &kp N   &kp M     &kp COMMA  &kp DOT  &kp SLASH  &sk RSHIFT
 &kp EQUAL                    &kp GRAVE  &kp SQT  &kp LBKT  &kp RBKT              &tp_kp LALT BACKSPACE  &tp_kp LCTRL ENTER  &sk LALT       &sk RALT   &sl 3       &kp SPACE               &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &kp MINUS
             >;
         };
