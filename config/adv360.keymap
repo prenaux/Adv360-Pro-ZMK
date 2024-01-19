@@ -145,6 +145,16 @@
             tapping-term-ms = <200>;
             flavor = "hold-preferred";
         };
+
+        to_kp: to_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TO_KP";
+            bindings = <&kp>, <&to>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "hold-preferred";
+        };
     };
 
     macros {
@@ -254,39 +264,39 @@
             bindings = <
 &hp_kp LS(LA(LC(LGUI))) ESC  &kp N1     &kp N2   &kp N3    &kp N4    &kp N5      &tog 3                                                                            &mo 5                   &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp BSPC
 &kp TAB                      &kp Q      &kp W    &kp E     &kp R     &kp T       &kp_to 1 TAB                                                                      &kp LS(LA(LC(LG(N3))))  &kp Y   &kp U     &kp I      &kp O     &kp P      &hp_kp RGUI BACKSLASH
-&to_mo 2 2                   &kp A      &kp S    &kp D     &kp F     &kp G       &kp LS(LA(LC(LG(N2))))  &sk LSHIFT          &sk LGUI       &sk RGUI   &sk RSHIFT  &kp LS(LA(LC(LG(N4))))  &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp ENTER
-&sk LSHIFT                   &kp Z      &kp X    &kp C     &kp V     &tp_mo 6 B                                              &sk LCTRL      &sk RCTRL                                      &kp N   &kp M     &kp COMMA  &kp DOT   &kp SLASH  &sk RSHIFT
+&to 2                        &kp A      &kp S    &kp D     &kp F     &kp G       &kp LS(LA(LC(LG(N2))))  &sk LSHIFT          &sk LGUI       &sk RGUI   &sk RSHIFT  &kp LS(LA(LC(LG(N4))))  &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp ENTER
+&to_kp LSHIFT 0              &kp Z      &kp X    &kp C     &kp V     &tp_mo 6 B                                              &sk LCTRL      &sk RCTRL                                      &kp N   &kp M     &kp COMMA  &kp DOT   &kp SLASH  &sk RSHIFT
 &kp EQUAL                    &kp GRAVE  &kp SQT  &kp LBKT  &kp RBKT              &tp_kp LALT BACKSPACE   &tp_kp LCTRL ENTER  &sk LALT       &sk RALT   &sl 4       &kp SPACE                       &kp LEFT  &kp UP     &kp DOWN  &kp RIGHT  &kp MINUS
             >;
         };
 
         dvorak_layer {
             bindings = <
-&trans  &kp N1    &kp N2     &kp N3   &kp N4  &kp N5  &trans                                      &trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&trans  &kp APOS  &kp COMMA  &kp DOT  &kp P   &kp Y   &to 0                                       &trans  &kp F   &kp G   &kp C   &kp R   &kp L   &hp_kp RGUI FSLH
-&trans  &kp A     &kp O      &kp E    &kp U   &kp I   &trans  &trans  &trans      &trans  &trans  &trans  &kp D   &kp H   &kp T   &kp N   &kp S   &trans
-&trans  &kp SEMI  &kp Q      &kp J    &kp K   &kp X                   &trans      &trans                  &kp B   &kp M   &kp W   &kp V   &kp Z   &trans
-&trans  &trans    &trans     &trans   &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans           &kp N1    &kp N2     &kp N3   &kp N4  &kp N5  &trans                                      &trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans           &kp APOS  &kp COMMA  &kp DOT  &kp P   &kp Y   &to 0                                       &trans  &kp F   &kp G   &kp C   &kp R   &kp L   &hp_kp RGUI FSLH
+&trans           &kp A     &kp O      &kp E    &kp U   &kp I   &trans  &trans  &trans      &trans  &trans  &trans  &kp D   &kp H   &kp T   &kp N   &kp S   &trans
+&to_kp LSHIFT 1  &kp SEMI  &kp Q      &kp J    &kp K   &kp X                   &trans      &trans                  &kp B   &kp M   &kp W   &kp V   &kp Z   &trans
+&trans           &trans    &trans     &trans   &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         ham_keys_layer {
             bindings = <
-&trans      &kp LC(LA(N1))  &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))  &trans                                      &trans  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))   &kp LC(LA(N0))    &trans
-&trans      &kp LC(LA(Q))   &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))   &trans                                      &trans  &kp LC(LA(Y))   &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))    &kp LC(LA(P))     &trans
-&to_mo 0 0  &kp LC(LA(A))   &kp LC(LA(S))   &kp LC(LA(D))   &to 0           &kp LC(LA(G))   &trans  &trans  &trans      &trans  &trans  &trans  &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))    &kp LC(LA(SEMI))  &trans
-&trans      &kp LC(LA(Z))   &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B))                   &trans      &trans                  &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))  &kp LC(LA(FSLH))  &trans
-&trans      &trans          &trans          &trans          &trans                          &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans             &trans           &trans            &trans
+&trans  &kp LC(LA(N1))  &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))  &trans                                      &trans  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))   &kp LC(LA(N0))    &trans
+&trans  &kp LC(LA(Q))   &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))   &trans                                      &trans  &kp LC(LA(Y))   &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))    &kp LC(LA(P))     &trans
+&trans  &kp LC(LA(A))   &kp LC(LA(S))   &kp LC(LA(D))   &to 0           &kp LC(LA(G))   &trans  &trans  &trans      &trans  &trans  &trans  &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))    &kp LC(LA(SEMI))  &trans
+&trans  &kp LC(LA(Z))   &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B))                   &trans      &trans                  &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))  &kp LC(LA(FSLH))  &trans
+&trans  &trans          &trans          &trans          &trans                          &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans             &trans           &trans            &trans
             >;
         };
 
         keypad {
             bindings = <
-&kp ESC     &trans  &trans  &trans  &trans  &trans  &trans                                             &trans  &trans        &kp UNDER  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
-&kp TAB     &trans  &trans  &trans  &trans  &trans  &trans                                             &trans  &kp KP_COMMA  &kp KP_N7  &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp RGUI
-&kp LALT    &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans      &kp F5   &kp F6  &trans  &kp KP_DOT    &kp KP_N4  &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
-&kp LSHIFT  &trans  &trans  &trans  &trans  &trans                        &trans      &kp F10                  &trans        &kp KP_N1  &kp KP_N2     &kp KP_N3      &kp KP_N0        &trans
-&trans      &none   &none   &trans  &trans          &kp SPACE  &kp LCTRL  &trans      &kp F9   &trans  &trans                &trans     &trans        &none          &none            &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                             &trans  &trans        &kp UNDER  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                             &trans  &kp KP_COMMA  &kp KP_N7  &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp RGUI
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans      &kp F5   &kp F6  &trans  &kp KP_DOT    &kp KP_N4  &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
+&trans  &trans  &trans  &trans  &trans  &trans                        &trans      &kp F10                  &trans        &kp KP_N1  &kp KP_N2     &kp KP_N3      &kp KP_N0        &trans
+&trans  &none   &none   &trans  &trans          &kp SPACE  &kp LCTRL  &trans      &kp F9   &trans  &trans                &trans     &trans        &none          &none            &trans
             >;
         };
 
