@@ -302,11 +302,11 @@
 
         sym {
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT    &kp POUND  &kp DOLLAR  &kp PERCENT  &trans                                                                              &trans  &kp CARET     &kp AMPS      &kp STAR   &kp LPAR       &kp RPAR   &trans
-&kp TILDE  &kp LT    &kp DQT   &kp UNDER  &kp GT      &kp TAB      &kp F1                                                                              &kp F3  &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PIPE   &kp BACKSLASH
-&trans     &kp PLUS  &kp SQT   &kp MINUS  &kp EQUAL   &kp ESC      &kp F2  &hp_kp LSHIFT F11  &hp_kp LCTRL F12      &hp_kp RCTRL F5  &hp_kp RSHIFT F6  &kp F4  &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp SEMI   &kp COLON
-&trans     &kp LBKT  &kp RBKT  &kp LBRC   &kp RBRC    &kp SPACE                               &hp_kp LGUI F8        &hp_kp RCMD F10                            &kp ENTER     &kp QUESTION  &kp COMMA  &kp DOT        &kp SLASH  &trans
-&trans     &trans    &trans    &trans     &trans                   &trans  &trans             &hp_kp LALT F7        &hp_kp RCMD F9   &trans            &trans                &kp HOME      &kp PG_UP  &kp PG_DN      &kp END    &trans
+&kp GRAVE      &kp EXCL       &kp AT    &kp POUND  &kp DOLLAR  &kp PERCENT  &trans                                                                              &trans  &kp CARET     &kp AMPS      &kp STAR   &kp LPAR       &kp RPAR   &trans
+&kp TILDE      &kp LT         &kp DQT   &kp UNDER  &kp GT      &kp TAB      &kp F1                                                                              &kp F3  &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PIPE   &kp BACKSLASH
+&trans         &kp PLUS       &kp SQT   &kp MINUS  &kp EQUAL   &kp ESC      &kp F2  &hp_kp LSHIFT F11  &hp_kp LCTRL F12      &hp_kp RCTRL F5  &hp_kp RSHIFT F6  &kp F4  &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp SEMI   &kp COLON
+&kp LG(LS(A))  &kp LBKT       &kp RBKT  &kp LBRC   &kp RBRC    &kp SPACE                               &hp_kp LGUI F8        &hp_kp RCMD F10                            &kp ENTER     &kp QUESTION  &kp COMMA  &kp DOT        &kp SLASH  &trans
+&kp LG(TAB)    &kp LG(GRAVE)  &trans    &trans     &trans                   &trans  &trans             &hp_kp LALT F7        &hp_kp RCMD F9   &trans            &trans                &kp HOME      &kp PG_UP  &kp PG_DN      &kp END    &trans
             >;
         };
 
