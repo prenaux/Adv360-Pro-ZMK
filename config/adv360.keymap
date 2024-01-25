@@ -292,11 +292,11 @@
 
         dvorakp {
             bindings = <
-&trans  &kp N1   &kp N2     &kp N3  &kp N4  &kp N5  &trans                                      &trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &trans
-&trans  &kp SQT  &kp COMMA  &kp F   &kp P   &kp Y   &trans                                      &trans  &kp J   &kp G   &kp L   &kp R   &kp SEMI  &hp_mo 6 SLASH
-&trans  &kp A    &kp O      &kp E   &kp I   &kp U   &trans  &trans  &trans      &trans  &trans  &trans  &kp D   &kp H   &kp T   &kp N   &kp S     &trans
-&trans  &kp Z    &kp X      &kp C   &kp V   &kp Q                   &trans      &trans                  &kp B   &kp M   &kp W   &kp K   &kp DOT   &trans
-&trans  &trans   &trans     &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans    &trans
+&trans  &kp N1   &kp N2         &kp N3  &kp N4  &kp N5  &trans                                      &trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &trans
+&trans  &kp SQT  &kp COMMA      &kp F   &kp P   &kp Y   &trans                                      &trans  &kp J   &kp G   &kp L   &kp R   &kp SEMI  &hp_mo 6 SLASH
+&trans  &kp A    &kp O          &kp E   &kp I   &kp U   &trans  &trans  &trans      &trans  &trans  &trans  &kp D   &kp H   &kp T   &kp N   &kp S     &trans
+&trans  &kp Z    &kp X          &kp C   &kp V   &kp Q                   &trans      &trans                  &kp B   &kp M   &kp W   &kp K   &kp DOT   &trans
+&trans  &trans   &kp BACKSLASH  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans    &trans
             >;
         };
 
