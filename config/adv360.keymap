@@ -292,11 +292,11 @@
 
         sym {
             bindings = <
-&kp TILDE  &kp EXCL  &kp AT     &kp POUND  &kp DOLLAR  &kp PERCENT  &trans                                                                            &trans  &kp CARET     &kp AMPS      &kp STAR   &kp PIPE       &trans         &trans
-&kp GRAVE  &kp SQT   &kp COMMA  &kp LPAR   &kp RPAR    &kp PLUS     &kp F1                                                                            &kp F3  &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp BACKSLASH  &trans
-&trans     &kp DQT   &kp UNDER  &kp MINUS  &kp EQUAL   &kp SLASH    &kp F2  &hp_kp LSHIFT F7  &hp_kp LCTRL F8      &hp_kp RCTRL F5  &hp_kp RSHIFT F6  &kp F4  &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp QMARK      &trans
-&trans     &kp LBKT  &kp RBKT   &kp LBRC   &kp RBRC    &kp SPACE                              &hp_kp LGUI F12      &hp_kp RCMD F10                            &kp SEMI      &kp COLON     &kp LT     &kp GT         &kp DOT        &trans
-&trans     &trans    &trans     &trans     &trans                   &trans  &trans            &hp_kp LALT F11      &hp_kp RCMD F9   &trans            &trans                &kp HOME      &kp PG_UP  &kp PG_DN      &kp END        &trans
+&trans  &kp EXCL   &kp AT     &kp POUND  &kp DOLLAR  &kp PERCENT  &trans                                                                            &trans  &kp CARET     &kp AMPS      &kp STAR   &kp TILDE      &trans     &trans
+&trans  &kp SQT    &kp LT     &kp LPAR   &kp RPAR    &kp GT       &kp F1                                                                            &kp F3  &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PIPE   &kp BSLH
+&trans  &kp DQT    &kp UNDER  &kp MINUS  &kp EQUAL   &kp PLUS     &kp F2  &hp_kp LSHIFT F7  &hp_kp LCTRL F8      &hp_kp RCTRL F5  &hp_kp RSHIFT F6  &kp F4  &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp SEMI   &trans
+&trans  &kp GRAVE  &kp LBKT   &kp LBRC   &kp RBRC    &kp RBKT                               &hp_kp LGUI F12      &hp_kp RCMD F10                            &kp COLON     &kp QMARK     &kp COMMA  &kp DOT        &kp SLASH  &trans
+&trans  &trans     &trans     &trans     &trans                   &trans  &trans            &hp_kp LALT F11      &hp_kp RCMD F9   &trans            &trans                &kp HOME      &kp PG_UP  &kp PG_DN      &kp END    &trans
             >;
         };
 
