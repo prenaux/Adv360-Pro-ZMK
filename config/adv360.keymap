@@ -243,21 +243,21 @@
 
         default_layer {
             bindings = <
-&hp_kp LS(LA(LC(LGUI))) ESC  &kp N1     &kp N2   &kp N3    &kp N4             &kp N5  &kp LG(X)                                                                   &mo 2                  &kp N6  &kp N7        &kp N8     &kp N9    &kp N0     &kp BACKSPACE
-&kp TAB                      &kp Q      &kp W    &kp E     &kp R              &kp T   &kp LG(C)                                                                   &kp LS(LG(LC(LA(W))))  &kp Y   &kp U         &kp I      &kp O     &kp P      &kp BACKSLASH
-&kp LCTRL                    &kp A      &kp S    &kp D     &kp F              &kp G   &kp LG(V)      &kp LCMD         &kp LSHIFT      &kp RSHIFT  &kp RGUI        &kp LG(LS(A))          &kp H   &kp J         &kp K      &kp L     &kp SEMI   &kp ENTER
-&kp LSHIFT                   &kp Z      &kp X    &kp C     &kp V              &kp B                                   &kp LCTRL       &kp RCTRL                                          &kp N   &kp M         &kp COMMA  &kp DOT   &kp SLASH  &kp RSHIFT
-&kp EQUAL                    &kp GRAVE  &kp SQT  &kp LBKT  &kp RIGHT_BRACKET          &kp BACKSPACE  &hp_mo 1 DELETE  &kp LALT        &kp RALT    &hp_mo 1 ENTER  &kp SPACE                      &kp UP_ARROW  &kp DOWN   &kp LEFT  &kp RIGHT  &kp MINUS
+&hp_kp LS(LA(LC(LGUI))) ESC  &kp N1     &kp N2   &kp N3    &kp N4             &kp N5  &kp LG(LS(LA(LC(W))))                                                               &mo 2                  &kp N6  &kp N7        &kp N8     &kp N9    &kp N0     &kp BACKSPACE
+&kp TAB                      &kp Q      &kp W    &kp E     &kp R              &kp T   &kp LG(TAB)                                                                         &kp LS(LG(LC(LA(J))))  &kp Y   &kp U         &kp I      &kp O     &kp P      &kp BACKSLASH
+&kp LCTRL                    &kp A      &kp S    &kp D     &kp F              &kp G   &kp LG(LS(A))          &kp LCMD         &kp LSHIFT      &kp RSHIFT  &kp RGUI        &kp LG(LS(LA(LC(L))))  &kp H   &kp J         &kp K      &kp L     &kp SEMI   &kp ENTER
+&kp LSHIFT                   &kp Z      &kp X    &kp C     &kp V              &kp B                                           &kp LCTRL       &kp RCTRL                                          &kp N   &kp M         &kp COMMA  &kp DOT   &kp SLASH  &kp RSHIFT
+&kp EQUAL                    &kp GRAVE  &kp SQT  &kp LBKT  &kp RIGHT_BRACKET          &kp BACKSPACE          &hp_mo 1 DELETE  &kp LALT        &kp RALT    &hp_mo 1 ENTER  &kp SPACE                      &kp UP_ARROW  &kp DOWN   &kp LEFT  &kp RIGHT  &kp MINUS
             >;
         };
 
         sym {
             bindings = <
-&trans     &kp F1         &kp F2      &kp F3        &kp F4        &kp F5     &trans                                      &trans  &kp F6        &kp F7        &kp F8     &kp F9         &kp F10       &kp F11
-&trans     &kp BACKSLASH  &kp PIPE    &kp DQT       &kp SQT       &kp GRAVE  &trans                                      &trans  &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &txt_colcol   &kp F12
-&trans     &kp TILDE      &kp UNDER   &kp MINUS     &kp EQUAL     &kp PLUS   &trans  &trans  &trans      &trans  &trans  &trans  &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp COLON     &trans
-&kp SPACE  &txt_farrow    &kp LBKT    &kp LBRC      &kp RBRC      &kp RBKT                   &trans      &trans                  &txt_larrow   &txt_rarrow   &kp LT     &kp GT         &kp QUESTION  &trans
-&kp C_PP   &kp C_PREV     &kp C_NEXT  &kp C_VOL_UP  &kp C_VOL_DN             &trans  &trans  &trans      &trans  &trans  &trans                &kp PG_UP     &kp PG_DN  &kp HOME       &kp END       &kp C_MUTE
+&trans     &kp F1         &kp F2      &kp F3        &kp F4        &kp F5     &kp LS(LA(LC(LG(Q))))                                      &trans                 &kp F6        &kp F7        &kp F8     &kp F9         &kp F10       &kp F11
+&trans     &kp BACKSLASH  &kp PIPE    &kp DQT       &kp SQT       &kp GRAVE  &kp C_BRI_UP                                               &kp LS(LA(LC(LG(U))))  &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &txt_colcol   &kp F12
+&trans     &kp TILDE      &kp UNDER   &kp MINUS     &kp EQUAL     &kp PLUS   &kp C_BRI_DEC          &trans  &trans      &trans  &trans  &kp LS(LA(LC(LG(O))))  &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp COLON     &trans
+&kp SPACE  &txt_farrow    &kp LBKT    &kp LBRC      &kp RBRC      &kp RBKT                                  &trans      &trans                                 &txt_larrow   &txt_rarrow   &kp LT     &kp GT         &kp QUESTION  &trans
+&kp C_PP   &kp C_PREV     &kp C_NEXT  &kp C_VOL_UP  &kp C_VOL_DN             &trans                 &trans  &trans      &trans  &trans  &trans                               &kp PG_UP     &kp PG_DN  &kp HOME       &kp END       &kp C_MUTE
             >;
         };
 
