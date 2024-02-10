@@ -253,11 +253,11 @@
 
         sym {
             bindings = <
-&trans     &kp F1         &kp F2      &kp F3        &kp F4        &kp F5     &trans                                                                           &trans  &kp F6        &kp F7        &kp F8     &kp F9         &kp F10       &kp F11
-&trans     &kp BACKSLASH  &kp PIPE    &kp DQT       &kp SQT       &kp GRAVE  &kp F1                                                                           &kp F3  &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &txt_colcol   &kp F12
-&trans     &kp TILDE      &kp UNDER   &kp MINUS     &kp EQUAL     &kp PLUS   &kp F2  &hp_kp LGUI F5  &hp_kp LSHIFT F6      &hp_kp RSHIFT F10  &hp_kp RGUI F9  &kp F4  &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp COLON     &trans
-&kp SPACE  &txt_farrow    &kp LBKT    &kp LBRC      &kp RBRC      &kp RBKT                           &hp_kp LCTRL F7       &hp_kp RCTRL F11                           &txt_larrow   &txt_rarrow   &kp LT     &kp GT         &kp QUESTION  &trans
-&kp C_PP   &kp C_PREV     &kp C_NEXT  &kp C_VOL_UP  &kp C_VOL_DN             &trans  &trans          &hp_kp LALT F8        &hp_kp RALT F12    &trans          &trans                &kp PG_UP     &kp PG_DN  &kp HOME       &kp END       &kp C_MUTE
+&trans     &kp F1         &kp F2      &kp F3        &kp F4        &kp F5     &trans                                      &trans  &kp F6        &kp F7        &kp F8     &kp F9         &kp F10       &kp F11
+&trans     &kp BACKSLASH  &kp PIPE    &kp DQT       &kp SQT       &kp GRAVE  &trans                                      &trans  &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &txt_colcol   &kp F12
+&trans     &kp TILDE      &kp UNDER   &kp MINUS     &kp EQUAL     &kp PLUS   &trans  &trans  &trans      &trans  &trans  &trans  &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp COLON     &trans
+&kp SPACE  &txt_farrow    &kp LBKT    &kp LBRC      &kp RBRC      &kp RBKT                   &trans      &trans                  &txt_larrow   &txt_rarrow   &kp LT     &kp GT         &kp QUESTION  &trans
+&kp C_PP   &kp C_PREV     &kp C_NEXT  &kp C_VOL_UP  &kp C_VOL_DN             &trans  &trans  &trans      &trans  &trans  &trans                &kp PG_UP     &kp PG_DN  &kp HOME       &kp END       &kp C_MUTE
             >;
         };
 
