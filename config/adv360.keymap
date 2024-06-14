@@ -262,11 +262,11 @@
 
         sym {
             bindings = <
-&trans     &kp EXCL   &kp AT             &kp POUND          &kp DOLLAR  &kp PERCENT  &trans                                      &trans  &kp CARET     &kp AMPERSAND  &kp STAR   &kp LPAR       &kp RPAR      &trans
-&trans     &kp GRAVE  &kp MINUS          &kp DOUBLE_QUOTES  &kp SQT     &kp PLUS     &trans                                      &trans  &kp LA(UP)    &kp LA(LEFT)   &kp UP     &kp LA(RIGHT)  &txt_colcol   &kp PIPE
-&trans     &kp TILDE  &kp UNDER          &kp LBRC           &kp RBRC    &kp EQUAL    &trans  &trans  &trans      &trans  &trans  &trans  &kp LA(DOWN)  &kp LEFT       &kp DOWN   &kp RIGHT      &kp COLON     &trans
-&kp SPACE  &txt_ddd   &txt_farrow        &kp LBKT           &kp RBKT    &kp SPACE                    &trans      &trans                  &txt_larrow   &txt_rarrow    &kp LT     &kp GT         &kp QUESTION  &trans
-&kp UNDER  &kp TILDE  &kp DOUBLE_QUOTES  &kp LBRC           &kp RBRC                 &trans  &trans  &trans      &trans  &trans  &trans                &kp PG_UP      &kp PG_DN  &kp HOME       &kp END       &kp PLUS
+&trans     &kp EXCL   &kp AT       &kp POUND          &kp DOLLAR  &kp PERCENT  &trans                                      &trans  &kp CARET     &kp AMPERSAND  &kp STAR  &kp LPAR       &kp RPAR      &trans
+&trans     &kp GRAVE  &kp MINUS    &kp DOUBLE_QUOTES  &kp SQT     &kp PLUS     &trans                                      &trans  &kp LA(UP)    &kp LA(LEFT)   &kp UP    &kp LA(RIGHT)  &txt_colcol   &kp PIPE
+&trans     &kp TILDE  &kp UNDER    &kp LBRC           &kp RBRC    &kp EQUAL    &trans  &trans  &trans      &trans  &trans  &trans  &kp LA(DOWN)  &kp LEFT       &kp DOWN  &kp RIGHT      &kp COLON     &trans
+&kp SPACE  &txt_ddd   &txt_farrow  &kp LBKT           &kp RBKT    &kp SPACE                    &trans      &trans                  &txt_larrow   &txt_rarrow    &kp LT    &kp GT         &kp QUESTION  &trans
+&trans     &trans     &trans       &trans             &trans                   &trans  &trans  &trans      &trans  &trans  &trans                &trans         &trans    &trans         &trans        &trans
             >;
         };
 
