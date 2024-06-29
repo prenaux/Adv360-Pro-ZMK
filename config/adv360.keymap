@@ -252,11 +252,11 @@
 
         default_layer {
             bindings = <
-&kp ESC       &kp N1     &kp N2     &kp N3    &kp N4    &kp N5  &kp LS(LA(LC(LG(UP))))                                                            &tp_mo 3 LC(B)  &kp N6  &kp N7    &kp N8     &kp N9     &kp N0     &kp BACKSPACE
-&hp_mo 2 TAB  &kp Q      &kp W      &kp E     &kp R     &kp T   &kp F1                                                                            &kp F3          &kp Y   &kp U     &kp I      &kp O      &kp P      &hp_mo 2 BACKSLASH
-&kp LCTRL     &kp A      &kp S      &kp D     &kp F     &kp G   &kp F2                  &kp LCMD   &kp LSHIFT                &kp LEFT  &kp RIGHT  &kp F4          &kp H   &kp J     &kp K      &kp L      &kp SEMI   &kp ENTER
-&kp LSHIFT    &kp Z      &kp X      &kp C     &kp V     &kp B                                      &kp LS(LA(LC(LGUI)))      &kp UP                               &kp N   &kp M     &kp COMMA  &kp DOT    &kp SLASH  &kp RSHIFT
-&kp MINUS     &kp EQUAL  &kp GRAVE  &kp LBKT  &kp RBKT          &kp LALT                &kp LCTRL  &mo 2                     &kp DOWN  &kp SQT    &kp SPACE               &kp HOME  &kp END    &kp PG_UP  &kp PG_DN  &kp UNDER
+&kp ESC       &kp N1     &kp N2     &kp N3    &kp N4    &kp N5  &kp LS(LA(LC(LG(UP))))                                                            &mo 3      &kp N6  &kp N7    &kp N8     &kp N9     &kp N0     &kp BACKSPACE
+&hp_mo 2 TAB  &kp Q      &kp W      &kp E     &kp R     &kp T   &kp F1                                                                            &kp F3     &kp Y   &kp U     &kp I      &kp O      &kp P      &hp_mo 2 BACKSLASH
+&kp LCTRL     &kp A      &kp S      &kp D     &kp F     &kp G   &kp F2                  &kp LCMD   &kp LSHIFT                &kp LEFT  &kp RIGHT  &kp F4     &kp H   &kp J     &kp K      &kp L      &kp SEMI   &kp ENTER
+&kp LSHIFT    &kp Z      &kp X      &kp C     &kp V     &kp B                                      &kp LS(LA(LC(LGUI)))      &kp UP                          &kp N   &kp M     &kp COMMA  &kp DOT    &kp SLASH  &kp RSHIFT
+&kp MINUS     &kp EQUAL  &kp GRAVE  &kp LBKT  &kp RBKT          &kp LALT                &kp LCTRL  &kp BACKSPACE             &kp DOWN  &kp SQT    &kp SPACE          &kp HOME  &kp END    &kp PG_UP  &kp PG_DN  &kp UNDER
             >;
         };
 
