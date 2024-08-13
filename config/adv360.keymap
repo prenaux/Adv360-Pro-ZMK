@@ -166,6 +166,16 @@
 
             quick-tap-ms = <200>;
         };
+
+        gresc_keepmod: gresc_keepmod {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GRESC_KEEPMOD";
+            bindings = <&kp ESCAPE>, <&kp GRAVE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_LGUI|MOD_RSFT|MOD_RGUI)>;
+            keep-mods = <(MOD_LSFT|MOD_LGUI|MOD_RSFT|MOD_RGUI)>;
+        };
     };
 
     macros {
@@ -252,11 +262,11 @@
 
         default_layer {
             bindings = <
-&gresc        &kp N1     &kp N2     &kp N3    &kp N4    &kp N5  &kp LS(LA(LC(LG(UP))))                                                                    &tp_mo 3 LC(B)  &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp BACKSPACE
-&hp_mo 2 TAB  &kp Q      &kp W      &kp E     &kp R     &kp T   &kp F1                                                                                    &kp F3          &kp Y   &kp U     &kp I      &kp O    &kp P      &hp_mo 2 BACKSLASH
-&kp LCTRL     &kp A      &kp S      &kp D     &kp F     &kp G   &kp F2                  &kp LCMD   &kp LSHIFT                &kp HOME       &kp END       &kp F4          &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp ENTER
-&kp LSHIFT    &kp Z      &kp X      &kp C     &kp V     &kp B                                      &kp LS(LA(LC(LGUI)))      &kp PG_UP                                    &kp N   &kp M     &kp COMMA  &kp DOT  &kp SLASH  &kp RSHIFT
-&kp GRAVE     &kp EQUAL  &kp MINUS  &kp LBKT  &kp RBKT          &kp LALT                &kp LCTRL  &tp_mo 2 DELETE           &kp PAGE_DOWN  &tp_mo 2 SQT  &kp SPACE               &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &kp UNDER
+&gresc_keepmod  &kp N1     &kp N2     &kp N3    &kp N4    &kp N5  &kp LS(LA(LC(LG(UP))))                                                                    &tp_mo 3 LC(B)  &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp BACKSPACE
+&hp_mo 2 TAB    &kp Q      &kp W      &kp E     &kp R     &kp T   &kp F1                                                                                    &kp F3          &kp Y   &kp U     &kp I      &kp O    &kp P      &hp_mo 2 BACKSLASH
+&kp LCTRL       &kp A      &kp S      &kp D     &kp F     &kp G   &kp F2                  &kp LCMD   &kp LSHIFT                &kp HOME       &kp END       &kp F4          &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp ENTER
+&kp LSHIFT      &kp Z      &kp X      &kp C     &kp V     &kp B                                      &kp LS(LA(LC(LGUI)))      &kp PG_UP                                    &kp N   &kp M     &kp COMMA  &kp DOT  &kp SLASH  &kp RSHIFT
+&kp GRAVE       &kp EQUAL  &kp MINUS  &kp LBKT  &kp RBKT          &kp LALT                &kp LCTRL  &tp_mo 2 DELETE           &kp PAGE_DOWN  &tp_mo 2 SQT  &kp SPACE               &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &kp UNDER
             >;
         };
 
