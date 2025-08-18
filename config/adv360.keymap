@@ -30,7 +30,7 @@
 &kp BACKSLASH  &kp N1     &kp N2     &kp N3    &kp N4    &kp N5  &kp F1                                                  &kp F4     &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp LA(LS(LCTRL))
 &kp TAB        &kp Q      &kp W      &kp E     &kp R     &kp T   &kp F2                                                  &kp F5     &kp Y   &kp U     &kp I      &kp O    &kp P      &kp FSLH
 &kp ESC        &kp A      &kp S      &kp D     &kp F     &kp G   &kp F3    &kp LCTRL  &kp LALT      &kp RALT  &kp RCTRL  &kp F6     &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp MINUS
-&kp LSHFT      &kp Z      &kp X      &kp C     &kp V     &kp B                        &to 3         &kp F7                          &kp N   &kp M     &kp COMMA  &kp DOT  &kp SQT    &kp RSHFT
+&kp LSHFT      &kp Z      &kp X      &kp C     &kp V     &kp B                        &mo 3         &kp F7                          &kp N   &kp M     &kp COMMA  &kp DOT  &kp SQT    &kp RSHFT
 &mo 2          &kp GRAVE  &kp EQUAL  &kp LBKT  &kp RBKT          &kp BSPC  &kp DEL    &kp LWIN      &kp F8    &kp ENTER  &kp SPACE          &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &mo 2
             >;
         };
