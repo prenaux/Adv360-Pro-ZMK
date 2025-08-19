@@ -27,11 +27,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp BACKSLASH  &kp N1     &kp N2     &kp N3    &kp N4    &kp N5  &kp F1                                                                 &kp F4     &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp SLASH
-&kp TAB        &kp Q      &kp W      &kp E     &kp R     &kp T   &kp F2                                                                 &kp F5     &kp Y   &kp U     &kp I      &kp O    &kp P      &kp EQUAL
-&kp ESC        &kp A      &kp S      &kp D     &kp F     &kp G   &kp F3    &kp LCTRL  &kp LALT                     &kp RALT  &kp RCTRL  &kp F6     &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp MINUS
-&kp LSHFT      &kp Z      &kp X      &kp C     &kp V     &kp B                        &lt 3 LS(LA(LC(SPACE)))      &kp F7                          &kp N   &kp M     &kp COMMA  &kp DOT  &kp SQT    &kp RSHFT
-&mo 2          &kp GRAVE  &kp EQUAL  &kp LBKT  &kp RBKT          &kp BSPC  &kp DEL    &kp LWIN                     &kp F8    &kp ENTER  &kp SPACE          &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &mo 2
+&kp BACKSLASH  &kp N1     &kp N2        &kp N3    &kp N4    &kp N5  &kp F1                                                              &lt 3 F4   &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp SLASH
+&kp TAB        &kp Q      &kp W         &kp E     &kp R     &kp T   &kp F2                                                              &kp F5     &kp Y   &kp U     &kp I      &kp O    &kp P      &kp EQUAL
+&kp ESC        &kp A      &kp S         &kp D     &kp F     &kp G   &kp F3    &kp LCTRL              &kp LALT      &kp RALT  &kp RCTRL  &kp F6     &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp MINUS
+&kp LSHFT      &kp Z      &kp X         &kp C     &kp V     &kp B                                    &kp HOME      &kp F7                          &kp N   &kp M     &kp COMMA  &kp DOT  &kp SQT    &kp RSHFT
+&mo 2          &kp GRAVE  &kp LEFT_WIN  &kp LBKT  &kp RBKT          &kp BSPC  &mt LS(LA(LCTRL)) DEL  &kp END       &kp F8    &kp ENTER  &kp SPACE          &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &mo 2
             >;
         };
 
