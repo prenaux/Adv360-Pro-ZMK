@@ -27,6 +27,8 @@
             #binding-cells = <0>;
             bindings = <&kp MINUS &kp GT>;
             label = "TXT_RARROW";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
 
         txt_larrow: txt_larrow {
@@ -34,6 +36,8 @@
             #binding-cells = <0>;
             bindings = <&kp LT &kp MINUS>;
             label = "TXT_LARROW";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
 
         txt_farrow: txt_farrow {
@@ -41,6 +45,8 @@
             #binding-cells = <0>;
             bindings = <&kp EQUAL &kp GT>;
             label = "TXT_FARROW";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
 
         txt_colcol: txt_colcol {
@@ -48,6 +54,8 @@
             #binding-cells = <0>;
             bindings = <&kp COLON &kp COLON>;
             label = "TXT_COLCOL";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
     };
 
