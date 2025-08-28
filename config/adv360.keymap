@@ -68,7 +68,7 @@
         };
 
         fg {
-            bindings = <&kp DEL>;
+            bindings = <&kp LA(BACKSPACE)>;
             key-positions = <32 33>;
         };
 
@@ -78,7 +78,7 @@
         };
 
         cv {
-            bindings = <&kp TAB>;
+            bindings = <&kp LC(BACKSPACE)>;
             key-positions = <49 50>;
         };
 
