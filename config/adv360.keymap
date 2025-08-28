@@ -89,7 +89,7 @@
 
         kl {
             bindings = <&kp DELETE>;
-            key-positions = <41 42>;
+            key-positions = <42 43>;
         };
     };
 
