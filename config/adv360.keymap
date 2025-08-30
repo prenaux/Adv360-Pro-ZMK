@@ -18,6 +18,18 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        my_hold_tap: my_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MY_HOLD_TAP";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
+            require-prior-idle-ms = <(-1)>;
+        };
     };
 
     macros {
@@ -103,11 +115,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp SLASH   &kp N1     &kp N2                      &kp N3    &kp N4    &kp N5  &mt LA(LS(LCTRL)) F1                                                         &lt 3 F4   &kp N6  &kp N7    &kp N8     &kp N9        &kp N0     &none
-&kp TAB     &kp Q      &kp W                       &kp E     &kp R     &kp T   &kp F2                                                                       &kp F5     &kp Y   &kp U     &kp I      &kp O         &kp P      &kp EQUAL
-&kp ESCAPE  &kp A      &kp S                       &kp D     &kp F     &kp G   &kp F3                &kp BACKSPACE  &kp DELETE         &kp LALT  &kp LCTRL  &kp F6     &kp H   &kp J     &kp K      &kp L         &kp SEMI   &kp MINUS
-&kp LSHFT   &kp Z      &kp X                       &kp C     &kp V     &kp B                                        &kp BACKSLASH      &kp F7                          &kp N   &kp M     &kp COMMA  &kp DOT       &kp SQT    &kp RSHFT
-&mo 2       &kp GRAVE  &mt LWIN LS(LA(LC(SPACE)))  &kp LBKT  &kp RBKT          &kp LALT              &kp LCTRL      &kp F9             &kp F8    &kp ENTER  &kp SPACE          &kp LEFT  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &mo 2
+&kp SLASH   &kp N1     &kp N2                      &kp N3    &kp N4    &kp N5  &mt LA(LS(LCTRL)) F1                                                                            &lt 3 F4   &kp N6  &kp N7    &kp N8     &kp N9        &kp N0     &none
+&kp TAB     &kp Q      &kp W                       &kp E     &kp R     &kp T   &kp F2                                                                                          &kp F5     &kp Y   &kp U     &kp I      &kp O         &kp P      &kp EQUAL
+&kp ESCAPE  &kp A      &kp S                       &kp D     &kp F     &kp G   &kp F3                       &kp LCTRL                  &kp RALT           &kp LALT  &kp LCTRL  &kp F6     &kp H   &kp J     &kp K      &kp L         &kp SEMI   &kp MINUS
+&kp LSHFT   &kp Z      &kp X                       &kp C     &kp V     &kp B                                                           &kp BACKSLASH      &kp F7                          &kp N   &kp M     &kp COMMA  &kp DOT       &kp SQT    &kp RSHFT
+&mo 2       &kp GRAVE  &mt LWIN LS(LA(LC(SPACE)))  &kp LBKT  &kp RBKT          &my_hold_tap LALT BACKSPACE  &my_hold_tap LCTRL DELETE  &kp F9             &kp F8    &kp ENTER  &kp SPACE          &kp LEFT  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &mo 2
             >;
         };
 
