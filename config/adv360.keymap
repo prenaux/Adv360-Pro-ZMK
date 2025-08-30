@@ -167,7 +167,7 @@
             >;
         };
 
-        keypad {
+        rxdk {
             display-name = "Kp";
             bindings = <
 &trans  &trans         &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
