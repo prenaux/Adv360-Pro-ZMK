@@ -170,11 +170,11 @@
         rxdk {
             display-name = "Kp";
             bindings = <
-&trans  &trans         &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp Q          &kp W   &kp F   &kp P   &kp K   &trans                                      &trans  &kp Y   &kp G   &kp L   &kp R   &kp Z   &trans
-&trans  &kp A          &kp O   &kp E   &kp U   &kp I   &trans  &trans  &trans      &trans  &trans  &trans  &kp D   &kp H   &kp T   &kp N   &kp S   &trans
-&trans  &kp SEMICOLON  &kp X   &kp C   &kp V   &kp B                   &trans      &trans                  &kp J   &kp M   &trans  &trans  &trans  &trans
-&trans  &trans         &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans    &trans
+&trans  &kp Q   &kp W   &kp F   &kp P   &kp K   &trans                                      &trans  &kp Y   &kp G   &kp L   &kp R   &kp SEMI  &trans
+&trans  &kp A   &kp O   &kp E   &kp U   &kp I   &trans  &trans  &trans      &trans  &trans  &trans  &kp D   &kp H   &kp T   &kp N   &kp S     &trans
+&trans  &kp Z   &kp X   &kp C   &kp V   &kp B                   &trans      &trans                  &kp J   &kp M   &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans    &trans
             >;
         };
 
