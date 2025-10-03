@@ -146,11 +146,11 @@
 
         sym {
             bindings = <
-&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp DOLLAR  &kp PERCENT    &trans                                      &trans  &kp CARET         &kp AMPERSAND       &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp TILDE  &kp EQUAL        &kp SLASH     &kp LPAR        &kp RPAR    &kp BACKSLASH  &trans                                      &trans  &kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)  &kp UP        &kp LC(RIGHT_ARROW)   &txt_colcol            &kp PLUS
-&trans     &kp PLUS         &kp QUESTION  &kp LEFT_BRACE  &kp RBRC    &kp PIPE       &trans  &trans  &trans      &trans  &trans  &trans  &kp LC(DOWN)      &kp LEFT            &kp DOWN      &kp RIGHT             &kp COLON              &kp UNDER
-&trans     &kp MINUS        &kp UNDER     &kp LBKT        &kp RBKT    &txt_farrow                    &trans      &trans                  &txt_larrow       &txt_rarrow         &kp LT        &kp GT                &kp DQT                &trans
-&trans     &trans           &trans        &trans          &trans                     &trans  &trans  &trans      &trans  &trans  &trans                    &trans              &trans        &trans                &trans                 &trans
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp DOLLAR  &kp PERCENT  &trans                                      &trans  &kp CARET    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp TILDE  &kp BACKSLASH    &kp UNDER     &kp LPAR        &kp RPAR    &kp PLUS     &trans                                      &trans  &kp PG_UP    &kp HOME       &kp UP        &kp END               &txt_colcol            &trans
+&trans     &kp PIPE         &kp MINUS     &kp LEFT_BRACE  &kp RBRC    &kp EQUAL    &trans  &trans  &trans      &trans  &trans  &trans  &kp PG_DN    &kp LEFT       &kp DOWN      &kp RIGHT             &kp COLON              &trans
+&trans     &kp SLASH        &kp QUESTION  &kp LBKT        &kp RBKT    &txt_farrow                  &trans      &trans                  &txt_larrow  &txt_rarrow    &kp LT        &kp GT                &kp QUESTION           &trans
+&trans     &trans           &trans        &trans          &trans                   &trans  &trans  &trans      &trans  &trans  &trans               &trans         &trans        &trans                &trans                 &trans
             >;
         };
 
